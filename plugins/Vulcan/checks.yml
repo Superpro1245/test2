@@ -1,0 +1,964 @@
+checks:
+  PLAYER:
+    FastUseA:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    DisablerA:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    DisablerB:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    DisablerC:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsA:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsB:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsD:
+      enabled: true
+      bannable: false
+      maxViolations: 4
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsE:
+      enabled: true
+      bannable: false
+      maxViolations: 10
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsF:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsG:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsH:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsI:
+      enabled: true
+      bannable: false
+      maxViolations: 3
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsJ:
+      enabled: true
+      bannable: false
+      maxViolations: 10
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsK:
+      enabled: true
+      bannable: false
+      maxViolations: 10
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsL:
+      enabled: true
+      bannable: false
+      maxViolations: 5
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsM:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    BadPacketsN:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    NoFallA:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    NoFallB:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    NoFallC:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    InvalidA:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    InvalidC:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    InventoryA:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    InventoryC:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    NoSlowA:
+      enabled: true
+      bannable: false
+      maxViolations: 10
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldA:
+      enabled: true
+      bannable: false
+      maxViolations: 1
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldB:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldC:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldD:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldE:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldF:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldG:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldH:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldI:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ScaffoldJ:
+      enabled: true
+      bannable: false
+      maxViolations: 2
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+  COMBAT:
+    VelocityA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    CriticalsA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    CriticalsB:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    CriticalsC:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    CriticalsD:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ReachA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ReachB:
+      enabled: false
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ReachC:
+      enabled: false
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerC:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerD:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerE:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerF:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerG:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerH:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerJ:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerK:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerL:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AutoClickerM:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    HitboxA:
+      enabled: false
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraA:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraB:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraD:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraE:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraF:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    HitboxB:
+      enabled: false
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraH:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraI:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraJ:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraK:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraL:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraN:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraO:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraP:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    KillAuraQ:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternB:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternC:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternD:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternI:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternJ:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternM:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternN:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    AimPatternP:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+  MOVEMENT:
+    JesusA:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    JesusB:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    JesusC:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    ElytraA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    FlightA:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    FlightB:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    FlightC:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    FlightD:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    FlightE:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    VehicleA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    VehicleB:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionA:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionB:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionD:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionE:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionF:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionG:
+      enabled: true
+      bannable: false
+      maxViolations: 10
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionH:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionI:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionJ:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionK:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionL:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionM:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionN:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionO:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionP:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionQ:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionR:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionS:
+      enabled: true
+      bannable: false
+      maxViolations: 20
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    MotionT:
+      enabled: true
+      bannable: false
+      maxViolations: 15
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedA:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedB:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedC:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedD:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedE:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedF:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedG:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedH:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedI:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    SpeedJ:
+      enabled: true
+      bannable: false
+      maxViolations: 25
+      violationsToNotify: 2
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'
+    TimerA:
+      enabled: true
+      bannable: false
+      maxViolations: 8
+      violationsToNotify: 1
+      punishment-commands:
+      - ban %player% &c[Vulcan] Unfair Advantage
+      - '%broadcast-ban-message%'

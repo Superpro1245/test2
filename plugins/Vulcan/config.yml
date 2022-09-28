@@ -1,0 +1,80 @@
+prefix: '&8[&c&l!&8]'
+alerts:
+  message: '%prefix% &c%player% &7failed &b%check% &7[VL: &c%vl%&7] [%chance%&7]'
+  hover:
+    - '&7Ping: &c%ping% &8| &7TPS: &c%tps% &8| &7Version: &c%version%'
+    - '&7%info%'
+    - '&r'
+    - '&7Click to teleport to &b%player%&7.'
+  click-command: '/tp %player%'
+  toggled-on-message: '%prefix% &7Vulcan alerts &aenabled&7!'
+  toggled-off-message: '%prefix% &7Vulcan alerts &cdisabled&7!'
+  show-in-console: true
+  console-message: "[Vulcan] %player% failed %check% [VL: %vl%] [Ping: %ping%] [TPS: %tps%]"
+  chances:
+    low: "&2Low"
+    medium: "&aMedium"
+    high: "&eHigh"
+    likely: "&cLikely"
+    definite: "&4Definite"
+    violations:
+      medium: 3
+      high: 5
+      likely: 7
+      definite: 9
+  debug: true
+punishments:
+  message:
+    - "%prefix% &c%player% &7was banned for &b%check%"
+  commands:
+    - "ban %player% &c[Vulcan] Unfair Advantage"
+  broadcast:
+    - "&7&m---»--*-------------------------------------*--«---"
+    - "&cVulcan &7has detected &c%player% &7to be cheating and has removed them from the network."
+    - "&7&m---»--*-------------------------------------*--«---"
+logfile:
+  enabled: true
+  message: "%player% failed %check% [VL: %vl%] [Ping: %ping%] [TPS: %tps%] [Version: %version%]"
+  ban-message: "%player% was banned for %check% [VL: %vl%] [Ping: %ping%] [TPS: %tps%]"
+logs-command:
+  header-footer: "&8&m-----------&r&8[&7Page &c%page%&8]&m-----------"
+  color: "&f"
+join-message:
+  enabled: false
+  message:
+    - "&r"
+    - "&4&lWARNING &8| &cButterfly clicking is strongly discouraged and may result in a ban."
+    - "&r"
+violation-reset:
+  enabled: true
+  interval-in-minutes: 8
+  message-enabled: true
+  message: "%prefix% &7Violations for all online players have been reset!"
+vulcan-command:
+  help-message:
+    - "&7&m---»--*-------------------------------------*--«---"
+    - "&cVulcan Cheat Detection v%version% by &cfrep"
+    - "&r"
+    - "&c/alerts &8- &7Toggles on/off Vulcan's alerts."
+    - "&c/logs &8- &7View all logs set off by a player."
+    - "&r"
+    - "&c/vulcan menu &8| &c/vulcan gui &8- &7Open Vulcan's GUI."
+    - "&c/vulcan ban (player) &8- &7Ban a player through Vulcan."
+    - "&c/vulcan reset &8- &7Reset violations for all players."
+    - "&c/vulcan reload &8- &7Reload all files."
+    - "&r"
+    - "&c/jday add (name) &8- &7Adds a player to Judgement Day."
+    - "&c/jday execute &8- &7Executes a Judgement Day."
+    - "&7&m---»--*-------------------------------------*--«---"
+judgement-day:
+  commands:
+    - "ban %player% &c[Vulcan] Judgement Day v1"
+  broadcast:
+    - "&7&m---»--*-------------------------------------*--«---"
+    - "&c%player% &7was banned for &c[Vulcan] Judgement Day v1"
+    - "&7&m---»--*-------------------------------------*--«---"
+settings:
+  autoclicker-max-cps: 23
+  minimum-tps: 18.5
+  suppress-violations-less-than: 0
+  injection-failure-message: "You joined too quickly, please relog!"

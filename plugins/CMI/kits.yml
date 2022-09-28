@@ -1,0 +1,1158 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+# Commands support specialized command format
+
+start:
+  CommandName: start
+  Delay: 10810
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BROWN_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BROWN_SHULKER_BOX
+  Items:
+    '1':
+      v: 2586
+      type: IRON_INGOT
+      amount: 10
+    '2':
+      v: 2586
+      type: COAL
+      amount: 20
+    '8':
+      v: 2586
+      type: WHITE_WOOL
+      amount: 64
+    '9':
+      v: 2586
+      type: COBBLESTONE
+      amount: 64
+    '10':
+      v: 2586
+      type: CHEST
+      amount: 4
+    '11':
+      v: 2586
+      type: FURNACE
+      amount: 4
+    '18':
+      v: 2586
+      type: OAK_LOG
+      amount: 32
+    '23':
+      v: 2586
+      type: ARROW
+      amount: 20
+    '28':
+      v: 2586
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    '29':
+      v: 2586
+      type: GOLDEN_PICKAXE
+    '30':
+      v: 2586
+      type: STONE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+    '31':
+      v: 2586
+      type: GOLDEN_SHOVEL
+    '32':
+      v: 2586
+      type: BOW
+    '33':
+      v: 2586
+      type: COOKED_BEEF
+      amount: 9
+    '34':
+      v: 2586
+      type: APPLE
+      amount: 5
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 31
+          GREEN: 104
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        color:
+          ==: Color
+          RED: 150
+          BLUE: 0
+          GREEN: 75
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        internal: H4sIAAAAAAAAAONiYGBm4Hf29QxKzMxLyi93LMrNL2JgYGBhAACw00BVGgAAAA==
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 255
+          GREEN: 255
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        color:
+          ==: Color
+          RED: 255
+          BLUE: 31
+          GREEN: 104
+    OffHand:
+      v: 2586
+      type: SHIELD
+voin:
+  CommandName: voin
+  Weight: 2
+  Delay: 86400
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLUE_SHULKER_BOX
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BLUE_SHULKER_BOX
+  Items:
+    '1':
+      v: 2586
+      type: BLUE_CONCRETE
+      amount: 64
+    '2':
+      v: 2586
+      type: BLUE_WOOL
+      amount: 64
+    '3':
+      v: 2586
+      type: WARPED_STEM
+      amount: 64
+    '8':
+      v: 2586
+      type: COAL
+      amount: 32
+    '9':
+      v: 2586
+      type: IRON_INGOT
+      amount: 20
+    '10':
+      v: 2586
+      type: CHEST
+      amount: 8
+    '11':
+      v: 2586
+      type: FURNACE
+      amount: 8
+    '12':
+      v: 2586
+      type: BARREL
+      amount: 3
+    '18':
+      v: 2586
+      type: GOLD_INGOT
+      amount: 5
+    '23':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '28':
+      v: 2586
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+    '29':
+      v: 2586
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+          DURABILITY: 1
+    '30':
+      v: 2586
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 1
+          DAMAGE_ALL: 1
+    '31':
+      v: 2586
+      type: IRON_SHOVEL
+    '32':
+      v: 2586
+      type: BOW
+    '33':
+      v: 2586
+      type: CROSSBOW
+    '34':
+      v: 2586
+      type: APPLE
+      amount: 5
+    '35':
+      v: 2586
+      type: COOKED_PORKCHOP
+      amount: 32
+    '36':
+      v: 2586
+      type: GOLDEN_APPLE
+    Helmet:
+      v: 2586
+      type: IRON_HELMET
+    Chest:
+      v: 2586
+      type: CHAINMAIL_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+    Legs:
+      v: 2586
+      type: CHAINMAIL_LEGGINGS
+    Boots:
+      v: 2586
+      type: CHAINMAIL_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+titan:
+  CommandName: titan
+  Delay: 86400
+  Items:
+    '1':
+      v: 2586
+      type: CRIMSON_STEM
+      amount: 64
+    '2':
+      v: 2586
+      type: CRIMSON_STEM
+      amount: 32
+    '3':
+      v: 2586
+      type: ANVIL
+    '8':
+      v: 2586
+      type: COAL
+      amount: 64
+    '9':
+      v: 2586
+      type: IRON_INGOT
+      amount: 32
+    '10':
+      v: 2586
+      type: RED_WOOL
+      amount: 64
+    '11':
+      v: 2586
+      type: NETHERRACK
+      amount: 64
+    '12':
+      v: 2586
+      type: ENCHANTING_TABLE
+    '17':
+      v: 2586
+      type: GOLD_INGOT
+      amount: 10
+    '18':
+      v: 2586
+      type: DIAMOND
+      amount: 2
+    '19':
+      v: 2586
+      type: CHEST
+      amount: 10
+    '20':
+      v: 2586
+      type: FURNACE
+      amount: 10
+    '21':
+      v: 2586
+      type: ENDER_CHEST
+    '23':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '24':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '28':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 1
+          DURABILITY: 1
+    '29':
+      v: 2586
+      type: IRON_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '30':
+      v: 2586
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '31':
+      v: 2586
+      type: IRON_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '32':
+      v: 2586
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 2
+          DURABILITY: 2
+    '33':
+      v: 2586
+      type: CROSSBOW
+    '34':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 5
+    '35':
+      v: 2586
+      type: APPLE
+      amount: 16
+    '36':
+      v: 2586
+      type: COOKED_BEEF
+      amount: 32
+    Helmet:
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+          DURABILITY: 1
+    Chest:
+      v: 2586
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    Legs:
+      v: 2586
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+          DURABILITY: 1
+    Boots:
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+    OffHand:
+      v: 2586
+      type: SHIELD
+karatel:
+  CommandName: karatel
+  Delay: 129600
+  Items:
+    '1':
+      v: 2586
+      type: STRIPPED_CRIMSON_STEM
+      amount: 64
+    '2':
+      v: 2586
+      type: STRIPPED_CRIMSON_STEM
+      amount: 64
+    '3':
+      v: 2586
+      type: STRIPPED_CRIMSON_STEM
+      amount: 64
+    '8':
+      v: 2586
+      type: COAL
+      amount: 64
+    '9':
+      v: 2586
+      type: IRON_INGOT
+      amount: 48
+    '10':
+      v: 2586
+      type: MAGENTA_WOOL
+      amount: 64
+    '11':
+      v: 2586
+      type: PURPUR_BLOCK
+      amount: 64
+    '12':
+      v: 2586
+      type: MAGENTA_STAINED_GLASS
+      amount: 64
+    '14':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '17':
+      v: 2586
+      type: DIAMOND
+      amount: 10
+    '18':
+      v: 2586
+      type: GOLD_INGOT
+      amount: 20
+    '19':
+      v: 2586
+      type: CHEST
+      amount: 16
+    '20':
+      v: 2586
+      type: FURNACE
+      amount: 16
+    '21':
+      v: 2586
+      type: ENDER_CHEST
+      amount: 5
+    '23':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '24':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '28':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 2
+          DURABILITY: 2
+    '29':
+      v: 2586
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '30':
+      v: 2586
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '31':
+      v: 2586
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 2
+          DURABILITY: 2
+    '32':
+      v: 2586
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 3
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: CROSSBOW
+    '34':
+      v: 2586
+      type: APPLE
+      amount: 32
+    '35':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 10
+    '36':
+      v: 2586
+      type: COOKED_BEEF
+      amount: 64
+    Helmet:
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Chest:
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Legs:
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 2
+    Boots:
+      v: 2586
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 2
+    OffHand:
+      v: 2586
+      type: SHIELD
+legend:
+  CommandName: legend
+  Delay: 172800
+  Items:
+    '1':
+      v: 2586
+      type: JUNGLE_LOG
+      amount: 64
+    '2':
+      v: 2586
+      type: JUNGLE_LOG
+      amount: 64
+    '3':
+      v: 2586
+      type: JUNGLE_LOG
+      amount: 64
+    '4':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '7':
+      v: 2586
+      type: DIAMOND
+      amount: 16
+    '8':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '9':
+      v: 2586
+      type: GOLD_INGOT
+      amount: 32
+    '10':
+      v: 2586
+      type: ORANGE_TERRACOTTA
+      amount: 64
+    '11':
+      v: 2586
+      type: ORANGE_WOOL
+      amount: 64
+    '12':
+      v: 2586
+      type: ORANGE_STAINED_GLASS
+      amount: 64
+    '13':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '17':
+      v: 2586
+      type: COAL
+      amount: 64
+    '18':
+      v: 2586
+      type: COAL
+      amount: 64
+    '19':
+      v: 2586
+      type: ANVIL
+      amount: 3
+    '20':
+      v: 2586
+      type: ENDER_CHEST
+      amount: 6
+    '21':
+      v: 2586
+      type: ENCHANTING_TABLE
+      amount: 4
+    '22':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '23':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '24':
+      v: 2586
+      type: ARROW
+      amount: 64
+    '26':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '27':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '28':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          FIRE_ASPECT: 1
+          DAMAGE_ALL: 4
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 4
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 4
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 4
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_FIRE: 1
+          ARROW_INFINITE: 1
+          ARROW_DAMAGE: 4
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: CROSSBOW
+    '34':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+    '35':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 20
+    '36':
+      v: 2586
+      type: GOLDEN_CARROT
+      amount: 64
+    Helmet:
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Chest:
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Legs:
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    Boots:
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+          DURABILITY: 3
+    OffHand:
+      v: 2586
+      type: SHIELD
+enigma:
+  CommandName: enigma
+  Delay: 172800
+  Items:
+    '1':
+      v: 2586
+      type: ACACIA_LOG
+      amount: 64
+    '2':
+      v: 2586
+      type: ACACIA_LOG
+      amount: 64
+    '3':
+      v: 2586
+      type: ACACIA_LOG
+      amount: 64
+    '4':
+      v: 2586
+      type: ACACIA_LOG
+      amount: 64
+    '5':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '6':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '7':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '8':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '9':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '10':
+      v: 2586
+      type: LIME_WOOL
+      amount: 64
+    '11':
+      v: 2586
+      type: LIME_WOOL
+      amount: 64
+    '12':
+      v: 2586
+      type: LIME_TERRACOTTA
+      amount: 64
+    '13':
+      v: 2586
+      type: LIME_STAINED_GLASS
+      amount: 64
+    '14':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '15':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '16':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '17':
+      v: 2586
+      type: COAL
+      amount: 64
+    '18':
+      v: 2586
+      type: COAL
+      amount: 64
+    '19':
+      v: 2586
+      type: CHEST
+      amount: 32
+    '20':
+      v: 2586
+      type: FURNACE
+      amount: 32
+    '21':
+      v: 2586
+      type: ENDER_CHEST
+      amount: 8
+    '22':
+      v: 2586
+      type: ANVIL
+      amount: 8
+    '23':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '24':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '25':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '26':
+      v: 2586
+      type: GOLD_INGOT
+      amount: 48
+    '27':
+      v: 2586
+      type: DIAMOND
+      amount: 32
+    '28':
+      v: 2586
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          FIRE_ASPECT: 2
+          LOOT_BONUS_MOBS: 3
+          DAMAGE_ALL: 5
+          DURABILITY: 3
+    '29':
+      v: 2586
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+          LOOT_BONUS_BLOCKS: 1
+          DURABILITY: 3
+    '30':
+      v: 2586
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '31':
+      v: 2586
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DIG_SPEED: 5
+          DURABILITY: 3
+    '32':
+      v: 2586
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_FIRE: 1
+          ARROW_INFINITE: 1
+          ARROW_DAMAGE: 5
+          DURABILITY: 3
+    '33':
+      v: 2586
+      type: CROSSBOW
+    '34':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 3
+    '35':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 24
+    '36':
+      v: 2586
+      type: GOLDEN_CARROT
+      amount: 64
+    Helmet:
+      v: 2586
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Chest:
+      v: 2586
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Legs:
+      v: 2586
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    Boots:
+      v: 2586
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+    OffHand:
+      v: 2586
+      type: SHIELD
+extra:
+  CommandName: extra
+  Delay: 2592000
+  Items:
+    '5':
+      v: 2586
+      type: NETHERITE_INGOT
+      amount: 7
+    '6':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '7':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '8':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '9':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '10':
+      v: 2586
+      type: CHORUS_FRUIT
+      amount: 64
+    '11':
+      v: 2586
+      type: CHORUS_FRUIT
+      amount: 64
+    '12':
+      v: 2586
+      type: CHORUS_FRUIT
+      amount: 64
+    '13':
+      v: 2586
+      type: CHORUS_FRUIT
+      amount: 64
+    '14':
+      v: 2586
+      type: DIAMOND
+      amount: 64
+    '15':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '16':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '17':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '18':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '19':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '20':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '21':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '22':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '23':
+      v: 2586
+      type: ENDER_PEARL
+      amount: 16
+    '24':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '25':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '26':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '27':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+    '28':
+      v: 2586
+      type: YELLOW_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAAMXUua7CQAyFYWdjCfu+3DehBFFQQ49CMsAoiQcFg8Tb3wCR0pLGrs8vf519AB+668SE8RZJ0+sQXJrg7Uildx8A/ixw94mhvHLoPQ33ZDIVbTG8BkipQvp0VgNsHcE41ajCLDjT6pYZUiFpgzY4yTMBN6/A25gHUlHPy1p976noeDImhkK1RFRbRHVEVFdE9UTUmohaF1EbImrzN3VQ3smnSOOlIK3qpM9PtvjJNj/Z4Se7/GSPn+zzkwN+clj5AT3wlKkgLlWnujoSUcci6kREnYqoMxF1LqIuRNQlrwrwD2OvhZV6DAAA
+        blockMaterial: YELLOW_SHULKER_BOX
+    '29':
+      v: 2586
+      type: ORANGE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAAJXLuw6CMBgG0L9IFaoiXvCCb+KocXDWnRAopBFag2Xg7TVR4uq3nyOIBAXHymT3s7bKdre09IlfrKyfgoj2jNxrZSwx4ifTass8clROca20zJq0sAdr3jgxRdLqvFO6pG9heHHwMsCLixeOlyFeRnjx8OLjReBljJcJXqZ4CfAyw0uIlzleFn0JPyX6Falz2SQPmTZVr5eQXkE6gvQa0htIbyG9g3T8nyZ6AZ6wPWJXBQAA
+        blockMaterial: ORANGE_SHULKER_BOX
+    '30':
+      v: 2586
+      type: RED_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAALXSy07DMBCF4UnbtKmBtlx6gW54DlaoiAU7JNhbxhlci9SOnOHStwcEaVAWSB6pW+v7z2YsAASMVoXXL7eOLG0flRlCeke4qQQALBPoPRSeIIH0xr86usygY3MYb6xDHdQzXSn3Zgv4dUnLTRuHLscg9RorqnXnXy112FakdtvdWl//6OUf/VFisOg0yidPVGDd9BhNymj6jGbAaDJGM2w186YxvsjRSa1C8LuriEh/EOkPI/1RpB9F+nGkn0T640h/IqBLymTQv/dkvYNFE1QUvDNyrcLXm4HW8qyBZMsSc/k9/F4Pn+5r+Gxfw1PGd58xmjmjWTCac0ZzEdMAfAKg7xzf0gUAAA==
+        blockMaterial: RED_SHULKER_BOX
+    '31':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 64
+    '32':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 16
+    '33':
+      v: 2586
+      type: IRON_INGOT
+      amount: 64
+    '34':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '35':
+      v: 2586
+      type: APPLE
+      amount: 64
+    '36':
+      v: 2586
+      type: TOTEM_OF_UNDYING
+ultra:
+  CommandName: ultra
+  Delay: 2592000
+  Items:
+    '28':
+      v: 2586
+      type: LIME_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAAJ3LuQ6CQBQF0AeCwrjhght/YmU0FtbaE4SnmQgDwTHRv7dQEkvn9ucIIkGDbV6mt73SUr9OydUn96C5uAsiiixyjnmpySJ3Vz6U3nhky4yiQipO6+Si1/ysuJasUo7PpdY50/dYwLGB0wKOAxwXOG3gdIDjAccHjgBOFzg94PSBMwDOEDgBcEbAGTcn+Jzw56iM67jipM4bPTHSUyMdGumZkZ4b6YWRXhrp1X+a6A32/LKyaQUAAA==
+        blockMaterial: LIME_SHULKER_BOX
+    '29':
+      v: 2586
+      type: GREEN_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAAJXLuQ6CQBQF0DsICqPivuGfWGoorLUnhC0TYSbRR8Hfa+EP3P4cDWjE19YVr9SKkeGZNxGCu1TdRwM4K/iP1gkUgpvrragQnimRdMZWxTuv5SLuhzNXZ70tB2Mb/Ivii8eXEV98vgR8GfNlwpeQLxFfNF+mfJnxZc6XmC8Lviz5suLLmi8bvmz5suPLni8Hvhz5cuJLQhTgC3qvWPaEBQAA
+        blockMaterial: GREEN_SHULKER_BOX
+    '30':
+      v: 2586
+      type: WHITE_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        internal: H4sIAAAAAAAAAJXTOw+CMBiF4Q8FhXpXBC//xMloHJx1JwQKNEKblDL47000SnTy7M87nRxGxGh8KFVyO0kjzP0a5x45Z8OrmhHR1iL7UipDFjlH1UjDXOqIlNaVkDzRcWZ2kpuCa2F4JGT+lM/Cehf7VxG0RVIo3dRRphvx4R2MdzFuY9zBeA/jfYy7GPd+eNjyXJUpl1ESa93uxEA/AP0Q9CPQj0E/Af0U9DPQz3+833qhlfw+1QLBPoKXCA4QHCJ4heA1gjd/YaIH/xv90BIFAAA=
+        blockMaterial: WHITE_SHULKER_BOX
+    '31':
+      v: 2586
+      type: CREEPER_SPAWN_EGG
+    '32':
+      v: 2586
+      type: COW_SPAWN_EGG
+    '33':
+      v: 2586
+      type: WITCH_SPAWN_EGG
+    '34':
+      v: 2586
+      type: SPAWNER
+      amount: 4

@@ -1,0 +1,24 @@
+# 
+#                                 #
+#       NitroCommandBlocker       #
+#                                 #
+Messages:
+  no-permission: '&4&l[!] &r&cYou do not have permission to perform this action.'
+  reload-success: '&2&l[!] &r&aConfiguration successfully reloaded'
+  bypassed: '&e&l[!] &r&eYou just bypassed a command, just letting you know!'
+  help:
+  - '&6&l[!] &e&lCOMMAND LIST'
+  - ''
+  - '   &6/cb block &e<command> &f- &7Blocks a command'
+  - '   &6/cb list &f- &7Lists blocked commands'
+  - '   &6/cb reload &f- &7Reloads the config file.'
+  - ''
+  block-list-header: '&6&l[!] &e&lBLOCKED COMMANDS LIST'
+  block-list:
+  - '   &6*&e %blocked%'
+  block-usage:
+  - '&4&l[!] &c&lINVALID SYNTAX'
+  - ''
+  - '&6/cb block &e<block>'
+  - '&eBlock &f= &7command to be blocked'
+  block-success: '&e&l[!] &r&7You have set &e/%args0% &7to be blocked!'

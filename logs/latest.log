@@ -1,0 +1,561 @@
+[17:16:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:16:39] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:16:47] [Worker-Main-2/INFO]: Loaded 7 recipes
+[17:17:00] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[17:17:00] [Server thread/INFO]: Loading properties
+[17:17:01] [Server thread/INFO]: This server is running Purpur version git-Purpur-1171 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[17:17:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:17:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:17:01] [Server thread/INFO]: Debug logging is disabled
+[17:17:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:17:01] [Server thread/INFO]: Generating keypair
+[17:17:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:17:02] [Server thread/INFO]: Using default channel type
+[17:17:02] [Server thread/INFO]: Tuinity: Using Java compression from Velocity.
+[17:17:02] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[17:17:08] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:17:24] [Server thread/WARN]: Legacy plugin NitroCommandBlocker v1.1.2 does not specify an api-version.
+[17:17:26] [Server thread/WARN]: Legacy plugin IRandomTeleport v1.9 does not specify an api-version.
+[17:17:26] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.153
+[17:17:26] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[17:17:26] [Server thread/INFO]: [NitroCommandBlocker] Loading NitroCommandBlocker v1.1.2
+[17:17:26] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:17:26] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[17:17:27] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[17:17:28] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[17:17:28] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[17:17:28] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[17:17:28] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[17:17:28] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[17:17:28] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[17:17:29] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[17:17:29] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[17:17:29] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.74
+[17:17:29] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[17:17:30] [Server thread/INFO]: [AnimatedScoreboard] Loading AnimatedScoreboard v0.2.7
+[17:17:30] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b560
+[17:17:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:17:36] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.3
+[17:17:36] [Server thread/INFO]: [Vulcan] Loading Vulcan v1.4.1
+[17:17:36] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:17:36] [Server thread/INFO]: [MyCommand] Loading MyCommand v5.7.3
+[17:17:36] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.12
+[17:17:36] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.11-beta-01+6200-0877589
+[17:17:39] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11a998aa]
+[17:17:39] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.8-dev+3-1eb5d8a
+[17:17:39] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[17:17:39] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[17:17:39] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.30-SNAPSHOT (build 2705)
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.6.1
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[gson]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, gson]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[jar-relocator]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, jar-relocator]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[asm]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, asm]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[asm-commons]
+[17:17:39] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, asm-commons]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[gson]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, gson]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[HikariCP]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, HikariCP]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[slf4j-api]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, slf4j-api]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for {0}[h2]
+[17:17:40] [Server thread/INFO]: [ajLeaderboards] Checksum {0} for {1}[matched, h2]
+[17:17:40] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[17:17:40] [Server thread/INFO]: [TAB] Loading TAB v3.1.5
+[17:17:40] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.8-dev+3-1eb5d8a
+[17:17:40] [Server thread/INFO]: [Guilds] Loading Guilds v3.5.6.2
+[17:17:40] [Server thread/INFO]: [Guilds] Loading Libraries...
+[17:17:40] [Server thread/INFO]: [Guilds] Note: This might take a few minutes on first run. Kindly ensure internet connectivity.
+[17:17:41] [Server thread/INFO]: [Guilds] Loaded libraries in 1,527 seconds
+[17:17:41] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[17:17:41] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.3.6
+[17:17:41] [Server thread/INFO]: [IRandomTeleport] Loading IRandomTeleport v1.9
+[17:17:41] [Server thread/INFO]: [CMI] Loading CMI v9.1.4.7
+[17:17:41] [Server thread/INFO]: [CitizensCMD] Loading CitizensCMD v2.6.6
+[17:17:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:17:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.74
+[17:17:43] [Server thread/INFO]:         __    
+[17:17:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.74
+[17:17:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[17:17:43] [Server thread/INFO]: 
+[17:17:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:17:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:17:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:17:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:17:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 10787ms)
+[17:17:52] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[17:17:52] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[17:17:52] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:17:52] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.8-dev+3-1eb5d8a which is not a depend, softdepend or loadbefore of this plugin.
+[17:17:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:17:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:17:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:17:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:17:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.11-beta-01+6200-0877589
+[17:17:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:17:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:17:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[17:17:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:17:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:17:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:17:58] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[17:17:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:17:58] [Server thread/INFO]: Preparing level "world"
+[17:18:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:18:01] [Server thread/INFO]: Time elapsed: 799 ms
+[17:18:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:18:01] [Server thread/INFO]: Time elapsed: 233 ms
+[17:18:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:18:01] [Server thread/INFO]: Time elapsed: 105 ms
+[17:18:01] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.153
+[17:18:01] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[17:18:01] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.4.2 which is not a depend, softdepend or loadbefore of this plugin.
+[17:18:02] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:18:02] [Server thread/INFO]: [NitroCommandBlocker] Enabling NitroCommandBlocker v1.1.2*
+[17:18:02] [Server thread/WARN]: [NitroCommandBlocker] Could not save config.yml to plugins\NitroCommandBlocker\config.yml because config.yml already exists.
+[17:18:02] [Server thread/WARN]: [NitroCommandBlocker] Could not save blocked.yml to plugins\NitroCommandBlocker\blocked.yml because blocked.yml already exists.
+[17:18:02] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:18:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[17:18:02] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.2.7
+[17:18:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: animatedscoreboard [0.0.1]
+[17:18:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.3
+[17:18:10] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_16_R3[32;1m, using [33;1mSpigotSkinRefresher[32;1m.[0;39m
+[17:18:11] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:18:11] [Server thread/INFO]: [Vulcan] Enabling Vulcan v1.4.1
+[17:18:12] [pool-11-thread-1/INFO]: [PacketEvents] Checking for an update, please wait...
+[17:18:12] [pool-11-thread-1/INFO]: [PacketEvents] You are on a dev or pre released build of PacketEvents. Your build: (1.7.9) | Latest released build: (1.4.1)
+[17:18:15] [Server thread/INFO]: [MyCommand] Enabling MyCommand v5.7.3
+[17:18:15] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[17:18:15] [Server thread/INFO]: | Hooked on Vault 1.7.3-b131
+[17:18:15] [Server thread/INFO]: | Command file(s) found : 1
+[17:18:15] [Server thread/INFO]: | Config : Ready.
+[17:18:15] [Server thread/INFO]: | ProtocolLib found, features availables (SignMenu)
+[17:18:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mycommand [1.0.0]
+[17:18:15] [Server thread/INFO]: | Placeholder_API : Hooked, Ok.
+[17:18:16] [Server thread/INFO]: | Custom commands loaded : 44
+[17:18:16] [Server thread/INFO]: | You're running the latest version of MyCommand.
+[17:18:16] [Server thread/WARN]: [MyCommand] Loaded class com.comphenix.protocol.events.PacketListener from ProtocolLib v5.0.0-SNAPSHOT-b560 which is not a depend, softdepend or loadbefore of this plugin.
+[17:18:16] [Server thread/INFO]: |          by emmerrei a.k.a. ivanfromitaly.           
+[17:18:16] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*   Done!   *-=-=-=-=-=-=-=-=-=-=-*
+[17:18:16] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.12
+[17:18:16] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[17:18:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: chatty [2.19.12]
+[17:18:16] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[17:18:17] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.8-dev+3-1eb5d8a
+[17:18:18] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:18:18] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:18:20] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[17:18:20] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[17:18:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:18:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:18:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:18:21] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:18:21] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[17:18:21] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:18:21] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:18:21] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[17:18:23] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:18:23] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:18:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:18:23] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:18:24] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2705)
+[17:18:25] [Server thread/INFO]: [Citizens] No translation for system language (ru_RU): defaulting to English
+[17:18:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[17:18:25] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[17:18:26] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.6.1
+[17:18:27] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[17:18:28] [Server thread/INFO]: [ajLeaderboards] Loaded 0 boards
+[17:18:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ajlb [2.6.1]
+[17:18:28] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[17:18:28] [Server thread/INFO]: [ajLeaderboards] LuckPerms position context calculator registered!
+[17:18:28] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.6.1 by ajgeiss0702 enabled!
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[17:18:28] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[17:18:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.3-Release]
+[17:18:28] [Server thread/INFO]: [TAB] Enabling TAB v3.1.5
+[17:18:28] [Server thread/INFO]: [TAB] Server version: 1.16.5 (v1_16_R3)
+[17:18:28] [Server thread/INFO]: [TAB] Loaded NMS hook in 147ms
+[17:18:29] [Server thread/INFO]: [TAB] Enabled in 309ms
+[17:18:29] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.8-dev+3-1eb5d8a
+[17:18:29] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:18:29] [Server thread/INFO]: [Guilds] Enabling Guilds v3.5.6.2
+[17:18:29] [Server thread/INFO]:   ________ 
+[17:18:29] [Server thread/INFO]:  /  _____/ 
+[17:18:29] [Server thread/INFO]: /   \  ___   Guilds v3.5.6.2
+[17:18:29] [Server thread/INFO]: \    \_\  \  Server Version: git-Purpur-1171 (MC: 1.16.5)
+[17:18:29] [Server thread/INFO]:  \______  /
+[17:18:29] [Server thread/INFO]:         \/ 
+[17:18:30] [Server thread/INFO]: [Guilds] Economy Found: EssentialsX Economy
+[17:18:30] [Server thread/INFO]: [Guilds] Permissions Found: LuckPerms
+[17:18:32] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: guilds [2.1]
+[17:18:32] [Server thread/INFO]: [Guilds] [ACF] Enabled Asynchronous Tab Completion Support!
+[17:18:36] [Server thread/INFO]: [Guilds] Ready to go! That only took 5452ms
+[17:18:36] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[17:18:36] [ForkJoinPool.commonPool-worker-1/INFO]: [Guilds] An update is available! Guilds 3.5.6.5 may be downloaded on SpigotMC
+[17:18:36] [TaskChainAsyncQueue Thread 0/INFO]: [Guilds] Bug Fixes
+- Fixed a bug loading old challenges when using MySQL backend
+- Fixed a bug where the admin upgrade command and guild tickets were not respecting perm changes
+- Fixed a bug where a user would not be able to challenge another guild if their previous war ended with no user from each guild joining the war
+- Fixed a bug where the guild role node for a player was not properly being applied
+
+
+Changes
+- Updated SlimJar dependency to fix some relocation NPEs being thrown
+- Overhauled the Role + Tier permission system handling backend (please let me know if you experience any problems)
+- Updated the library handle to a new version that is the result from a discussion with the library developer. There was an issue where it was checking the client locale of all players online every second without a cache. This started showing up on the main thread. It now checks less often and has a cache so it's not as intensive.
+- The enum value for the team / ally chat can now be translated
+- Updated XSeries to 3.4.0
+- Updated Kotlin to 1.5.30
+
+[17:18:36] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[17:18:37] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[17:18:37] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[17:18:37] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[17:18:38] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[17:18:38] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.3.6
+[17:18:42] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - paper
+[17:18:45] [Server thread/INFO]: CMI hooked.
+[17:18:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.3.6]
+[17:18:45] [Server thread/INFO]: PlaceholderAPI hooked.
+[17:18:46] [Server thread/INFO]: Updated (EN) language file. Took 244ms
+[17:18:46] [Server thread/INFO]: [IRandomTeleport] Enabling IRandomTeleport v1.9*
+[17:18:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rtp [1.3]
+[17:18:46] [Server thread/INFO]: [IRandomTeleport] Плагин включён!
+[17:18:46] [Server thread/INFO]: [CMI] Enabling CMI v9.1.4.7
+[17:18:47] [Server thread/INFO]: ????? ?????? ????
+[17:18:47] [Server thread/INFO]: ????? ? ?? ? ????
+[17:18:47] [Server thread/INFO]: ?? ?? ??????  ?? 
+[17:18:47] [Server thread/INFO]: ?? ?? ??????  ?? 
+[17:18:47] [Server thread/INFO]: ????? ?????? ????
+[17:18:47] [Server thread/INFO]: ????? ?????? ????
+[17:18:47] [Server thread/INFO]: _______________________________________________________
+[17:18:47] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[17:18:48] [Server thread/INFO]:   Citizens found.
+[17:18:48] [Server thread/INFO]:   56 Enabled and 0 Disabled modules
+[17:18:50] [Server thread/INFO]:   Permission plugin: LuckPerms5.3.74
+[17:18:50] [Server thread/INFO]:   Initialized Cipher256 AES
+[17:18:52] [Server thread/INFO]:   Loaded (60) regular alias into memory. Took 168ms
+[17:18:52] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 8ms
+[17:18:52] [Server thread/INFO]:   3.34.0 data base type detected
+[17:18:53] [Server thread/INFO]:   Started SqLite data base. Took 953ms
+[17:18:53] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: EssentialsX Economy
+[17:18:54] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 3ms
+[17:18:54] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[17:18:55] [Server thread/INFO]:   Loaded (135) custom mob heads into memory. Took 198ms
+[17:18:55] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 244ms
+[17:18:56] [Server thread/INFO]:   Initializing BungeeCord
+[17:18:56] [Server thread/INFO]:   Loaded (8) kits into memory. Took 199ms
+[17:18:56] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 100ms
+[17:18:56] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 9ms
+[17:18:56] [Server thread/INFO]:   Loaded (1) player data into memory. Took 28ms
+[17:18:56] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 2ms
+[17:18:56] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 2ms
+[17:18:56] [Server thread/INFO]:   Loaded (0) custom alias into memory. Took 7ms
+[17:18:58] [Server thread/INFO]:   Registered events. Took 1457ms
+[17:18:58] [Server thread/INFO]:   Loaded (0) event action commands into memory. Took 23ms
+[17:18:58] [Server thread/INFO]:   Updated (EN) language file. Took 531ms
+[17:18:58] [Server thread/WARN]: [CMILib] Loaded class com.Zrips.CMI.Containers.Snd from CMI v9.1.4.7 which is not a depend, softdepend or loadbefore of this plugin.
+[17:18:58] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 74ms
+[17:18:58] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[17:18:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmi [9.1.4.7]
+[17:18:58] [Server thread/INFO]:   PlaceholderAPI hooked.
+[17:18:58] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
+[17:18:58] [Server thread/INFO]:   Starting world timer.
+[17:18:58] [Server thread/INFO]:   Initializing world manager.
+[17:18:59] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 60ms
+[17:18:59] [Server thread/INFO]:   Loaded GeoIP
+[17:18:59] [Server thread/INFO]:   Loaded (0) skin cache entries into memory. Took 4ms
+[17:18:59] [Server thread/INFO]:   Loaded (0) ArmorStand templates into memory. Took 1ms
+[17:18:59] [Server thread/INFO]:   Version 9.1.4.7 has been enabled
+[17:18:59] [Server thread/INFO]: ???????????????????????????????????????????????????????
+[17:18:59] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
+[17:18:59] [Server thread/INFO]: [CitizensCMD] Enabling CitizensCMD v2.6.6
+[17:19:00] [Server thread/INFO]: [CitizensCMD] CitizensCMD 2.6.6
+[17:19:00] [Server thread/INFO]: [CitizensCMD] by Mateus Moreira @LichtHund & Maintained by HexedHero
+[17:19:00] [Server thread/INFO]: [CitizensCMD] Using English messages!
+[17:19:00] [Server thread/INFO]: [CitizensCMD] Using PlaceholderAPI!
+[17:19:00] [Server thread/INFO]: [CitizensCMD] Using Vault!
+[17:19:03] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:19:03] [Server thread/INFO]: Starting remote control listener
+[17:19:03] [Server thread/WARN]: No rcon password set in server.properties, rcon disabled!
+[17:19:03] [Server thread/INFO]: Running delayed init tasks
+[17:19:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[17:19:04] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_341). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[17:19:04] [Craft Scheduler Thread - 24 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:19:04] [Craft Scheduler Thread - 16 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[17:19:04] [Craft Scheduler Thread - 11 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[17:19:04] [Craft Scheduler Thread - 23 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[17:19:04] [Craft Scheduler Thread - 16 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[17:19:04] [Craft Scheduler Thread - 16 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[17:19:04] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:19:04] [Craft Scheduler Thread - 16 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[17:19:04] [Server thread/INFO]: [IRandomTeleport] > Обновлений не найдено. Вы используете последнюю версию 1.9
+[17:19:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.3]
+[17:19:04] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[17:19:05] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[17:19:05] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:19:05] [Server thread/INFO]: Done (124.397s)! For help, type "help"
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_341
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[17:19:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[17:19:05] [Server thread/INFO]: Timings Reset
+[17:19:05] [Craft Scheduler Thread - 24 - Vault/INFO]: [Vault] No new version available
+[17:19:05] [Craft Scheduler Thread - 23 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] No new versions found for the plugin!
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.3[0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[17:19:06] [Craft Scheduler Thread - 7 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:25:39] [Server thread/INFO]: [ASB] Reloading of the plugin started!
+[17:25:39] [Server thread/INFO]: [ASB] Reload completed! Done in 131ms!
+[17:25:50] [User Authenticator #1/INFO]: UUID of player Jvd011 is b1af42ca-9f5c-3d7f-a198-9caece85fd51
+[17:25:54] [Server thread/INFO]: > ТИТАНJvd011 joined the server.
+[17:25:55] [Server thread/INFO]: Jvd011[/127.0.0.1:4485] logged in with entity id 50 at ([world]-76.5, 47.876059490969865, -74.5)
+[17:26:04] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 321,025600ms. Summary: Getting group for Jvd011
+[17:26:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1171 (MC: 1.16.5) ---
+[17:26:07] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:26:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:07] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:26:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:26:09] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[17:26:09] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.insertNewValue(AbstractConfigurationNode.java:241)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.raw(AbstractConfigurationNode.java:340)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.raw(AbstractConfigurationNode.java:43)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.serialize.ScalarSerializer.serialize(ScalarSerializer.java:159)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperImpl.saveSingle(ObjectMapperImpl.java:143)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperImpl.save(ObjectMapperImpl.java:114)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperFactoryImpl.serialize(ObjectMapperFactoryImpl.java:251)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.ScopedConfigurationNode.set(ScopedConfigurationNode.java:116)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.ScopedConfigurationNode.set(ScopedConfigurationNode.java:127)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData.lambda$reloadConfig$0(UserData.java:93)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData$$Lambda$7276/347729683.run(Unknown Source)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.delaySave(EssentialsConfiguration.java:443)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.save(EssentialsConfiguration.java:429)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.stopTransaction(EssentialsConfiguration.java:419)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.stopTransaction(EssentialsConfiguration.java:411)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData.stopTransaction(UserData.java:750)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask.run(EssentialsPlayerListener.java:446)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1503)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:449)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1416)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1142)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3064/2073254346.run(Unknown Source)
+[17:26:09] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[17:26:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:09] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:26:09] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Purpur-1171 (MC: 1.16.5) ---
+[17:26:12] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:26:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:26:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:26:13] [Paper Watchdog Thread/ERROR]: 	PID: 19 | Suspended: false | Native: false | State: RUNNABLE
+[17:26:13] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.insertNewValue(AbstractConfigurationNode.java:241)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.raw(AbstractConfigurationNode.java:340)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.AbstractConfigurationNode.raw(AbstractConfigurationNode.java:43)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.serialize.ScalarSerializer.serialize(ScalarSerializer.java:159)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperImpl.saveSingle(ObjectMapperImpl.java:143)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperImpl.save(ObjectMapperImpl.java:114)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.objectmapping.ObjectMapperFactoryImpl.serialize(ObjectMapperFactoryImpl.java:251)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.ScopedConfigurationNode.set(ScopedConfigurationNode.java:116)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.libs.configurate.ScopedConfigurationNode.set(ScopedConfigurationNode.java:127)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData.lambda$reloadConfig$0(UserData.java:93)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData$$Lambda$7276/347729683.run(Unknown Source)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.delaySave(EssentialsConfiguration.java:443)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.save(EssentialsConfiguration.java:429)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.stopTransaction(EssentialsConfiguration.java:419)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.config.EssentialsConfiguration.stopTransaction(EssentialsConfiguration.java:411)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.UserData.stopTransaction(UserData.java:750)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		com.earth2me.essentials.EssentialsPlayerListener$1DelayJoinTask.run(EssentialsPlayerListener.java:446)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftTask.run(CraftTask.java:100)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_16_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.b(MinecraftServer.java:1503)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:449)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1416)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1142)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_16_R3.MinecraftServer$$Lambda$3064/2073254346.run(Unknown Source)
+[17:26:13] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Unknown Source)
+[17:26:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:26:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:26:27] [Craft Scheduler Thread - 34 - AuthMe/INFO]: [AuthMe] Jvd011 logged in 127.0.0.1
+[17:26:45] [Server thread/WARN]: Jvd011 was kicked due to keepalive timeout!
+[17:26:45] [Server thread/INFO]: Jvd011 lost connection: Timed out
+[17:26:46] [Netty Server IO #2/WARN]: java.lang.reflect.InvocationTargetException
+[17:26:46] [Netty Server IO #2/WARN]: 	at sun.reflect.GeneratedMethodAccessor164.invoke(Unknown Source)
+[17:26:46] [Netty Server IO #2/WARN]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[17:26:46] [Netty Server IO #2/WARN]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.github.retrooper.packetevents.event.manager.EventManagerLegacy.callEvent(EventManagerLegacy.java:56)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.github.retrooper.packetevents.event.manager.EventManager.callEvent(EventManager.java:37)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.github.retrooper.packetevents.packetmanager.PacketManager.read(PacketManager.java:187)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.github.retrooper.packetevents.packetmanager.tinyprotocol.TinyProtocol8.onPacketInAsync(TinyProtocol8.java:250)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.github.retrooper.packetevents.packetmanager.tinyprotocol.TinyProtocol8$PacketInterceptor.channelRead(TinyProtocol8.java:524)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at com.comphenix.protocol.injector.netty.channel.InboundPacketInterceptor.channelRead(InboundPacketInterceptor.java:33)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:425)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+[17:26:46] [Netty Server IO #2/WARN]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[17:26:46] [Netty Server IO #2/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[17:26:46] [Netty Server IO #2/WARN]: Caused by: java.lang.NullPointerException
+[17:26:46] [Netty Server IO #2/WARN]: 	at me.frep.vulcan.checks.impl.player.disabler.DisablerA.onReceive(DisablerA.java:27)
+[17:26:46] [Netty Server IO #2/WARN]: 	... 52 more
+[17:26:46] [Server thread/INFO]: > ТИТАНJvd011 left the server.
+[17:27:09] [User Authenticator #2/INFO]: UUID of player Jvd011 is b1af42ca-9f5c-3d7f-a198-9caece85fd51
+[17:27:10] [Server thread/INFO]: > ТИТАНJvd011 joined the server.
+[17:27:10] [Server thread/INFO]: Jvd011[/127.0.0.1:4496] logged in with entity id 51 at ([world]-76.5, 35.0, -74.5)
+[17:27:11] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 58,827300ms. Summary: Getting group for Jvd011
+[17:27:22] [Craft Scheduler Thread - 41 - AuthMe/INFO]: [AuthMe] Jvd011 logged in 127.0.0.1
+[17:30:16] [Server thread/INFO]: Jvd011 issued mycmd (gamemode_alias) command /gm 1
+[17:30:18] [Async Chat Thread - #1/INFO]: [Local] ТИТАНJvd011: f
+[17:34:01] [Server thread/INFO]: Jvd011 lost connection: Disconnected
+[17:34:01] [Server thread/INFO]: > ТИТАНJvd011 left the server.
+[17:42:08] [Server thread/INFO]: Stopping server
+[17:42:08] [Server thread/INFO]: [CitizensCMD] Disabling CitizensCMD v2.6.6
+[17:42:09] [Server thread/INFO]: [CMI] Disabling CMI v9.1.4.7
+[17:42:09] [Server thread/INFO]: [AuthMe] CMI has been disabled: unhooking
+[17:42:10] [Server thread/INFO]: [CMI] Closed db connections
+[17:42:10] [Server thread/INFO]: [IRandomTeleport] Disabling IRandomTeleport v1.9
+[17:42:10] [Server thread/INFO]: [IRandomTeleport] Плагин выключен!
+[17:42:10] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.3.6
+[17:42:10] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-beta2-b2453
+[17:42:11] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[17:42:11] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2-b2453 disabled!
+[17:42:11] [Server thread/INFO]: [Guilds] Disabling Guilds v3.5.6.2
+[17:42:11] [Server thread/INFO]: [Guilds] Shutting down database...
+[17:42:11] [Server thread/INFO]: [Guilds] Database has been shut down.
+[17:42:11] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.19.8-dev+3-1eb5d8a
+[17:42:11] [Server thread/INFO]: [TAB] Disabling TAB v3.1.5
+[17:42:11] [Server thread/INFO]: [TAB] Disabled in 76ms
+[17:42:11] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.3-Release
+[17:42:11] [Server thread/INFO]: [ajLeaderboards] Disabling ajLeaderboards v2.6.1
+[17:42:11] [pool-54-thread-1/INFO]: [ajLeaderboards] Shutting down cache method..
+[17:42:12] [pool-54-thread-1/INFO]: [ajLeaderboards] Cache method shut down
+[17:42:12] [Server thread/INFO]: [ajLeaderboards] Killing remaining workers
+[17:42:12] [Server thread/INFO]: [ajLeaderboards] Remaining workers killed
+[17:42:12] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.6.1 disabled.
+[17:42:12] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.30-SNAPSHOT (build 2705)
+[17:42:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[17:42:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[17:42:12] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[17:42:12] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.8-dev+3-1eb5d8a
+[17:42:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[17:42:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.11-beta-01+6200-0877589
+[17:42:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:42:13] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.12
+[17:42:13] [Server thread/INFO]: [MyCommand] Disabling MyCommand v5.7.3
+[17:42:13] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-* MyCommand v.5.7.3*-=-=-=-=-=-=-=-=-=-*
+[17:42:13] [Server thread/INFO]: | Tasks : Stopped all tasks.
+[17:42:13] [Server thread/INFO]: *-=-=-=-=-=-=-=-=-=-*    Bye!   *-=-=-=-=-=-=-=-=-=-=-*
+[17:42:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:42:13] [Server thread/INFO]: [Vulcan] Disabling Vulcan v1.4.1
+[17:42:13] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.3
+[17:42:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b560
+[17:42:13] [Server thread/INFO]: [AnimatedScoreboard] Disabling AnimatedScoreboard v0.2.7
+[17:42:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.74
+[17:42:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:42:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:42:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:42:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
+[17:42:14] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[17:42:14] [Server thread/INFO]: [HolographicDisplays] Disabling HolographicDisplays v3.0.0-SNAPSHOT-b202
+[17:42:14] [Server thread/INFO]: [NitroCommandBlocker] Disabling NitroCommandBlocker v1.1.2
+[17:42:14] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[17:42:14] [Server thread/INFO]: [Chunky] Disabling Chunky v1.2.153
+[17:42:14] [Server thread/INFO]: Saving players
+[17:42:14] [Server thread/INFO]: Saving worlds
+[17:42:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:42:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:42:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:42:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:42:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:42:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:42:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:42:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:42:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:42:15] [Server thread/INFO]: Flushing Chunk IO
+[17:42:15] [Server thread/INFO]: Closing Thread Pool
+[17:42:15] [Server thread/INFO]: Closing Server
